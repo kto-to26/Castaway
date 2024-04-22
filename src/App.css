@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body, html {
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: #191919;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.wrapper header {
+  color: #fff;
+  width: 100%;
+  padding: 1vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper header .header__logo {
+  font-size: 30px;
+}
+.wrapper header .header__logo a {
+  color: #fff;
+}
+.wrapper header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.wrapper header ul li a {
+  color: #fff;
+  transition: 0.25s;
+}
+.wrapper header ul li a:hover {
+  color: #118DA8;
+  transition: 0.25s;
+}
+.wrapper .block1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .block1 .block1__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .block1 .block1__wrapper .block1__wrapper__left {
+  width: 25vw;
+  height: 70vh;
+  background: url(../public/block1/left.png) 0 0/cover no-repeat;
+}
+.wrapper .block1 .block1__wrapper .block1__wrapper__left::after {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: red;
+}/*# sourceMappingURL=App.css.map */

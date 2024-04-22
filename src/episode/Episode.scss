@@ -1,0 +1,68 @@
+.episode{
+    width: 100%;
+    height: 50vh;
+    margin:35px 0;
+    .episode__content{
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        background: #000;
+        border-radius: 15px;
+        // right
+        .episode__content__right{
+            width: 20vw;
+            height: 100%;
+            // background: url(../episode/one.png);
+        }
+        // left
+        .episode__content__left{
+             display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-direction: column;
+            width: calc(100% - 23vw);
+            height: 100%;
+
+            // type
+            .episode__content__left-type{
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                padding: 0 10px;
+                height: 30px;
+                background: #191919;
+                border-radius: 5px;
+            }
+            .episode__content__left-num{
+                color: #118DA8;
+            }
+            .episode__content__left-name{
+                font-size: 64px;
+                width: 50%;
+                font-weight: 400;
+                line-height: 75px;
+            }
+            .episode__content__left-main{
+                width: 60%;
+                font-size: 22px;
+                color: rgba(255, 255, 255,0.7);
+                line-height: 30px;
+            }
+            .episode__content__left-view{
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                color: #fff;
+                width: 210px;
+                height: 50px;
+                background-color: #118DA8;
+            }
+        }
+    }
+}
